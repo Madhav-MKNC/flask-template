@@ -24,8 +24,10 @@ my_project/
 │   ├── templates/              # Jinja2 templates (if serving HTML)
 │   │   └── index.html
 │   │
-│   └── static/                 # CSS, JavaScript files (if serving HTML)
-│       └── main.css
+│   ├── static/                 # CSS, JavaScript files (if serving HTML)
+│   |   └── main.css
+|   |
+|   └── config.py                   # Configuration settings
 │
 ├── tests/                      # Automated tests
 │   ├── __init__.py
@@ -45,7 +47,6 @@ my_project/
 │
 ├── .env                        # Environment variables (use python-dotenv)
 ├── .gitignore                  # Specifies intentionally untracked files to ignore
-├── config.py                   # Configuration settings
 ├── requirements.txt            # Project dependencies
 ├── README.md                   # Project overview and setup instructions
 └── setup.py                    # Setup script for installing the project as a module
